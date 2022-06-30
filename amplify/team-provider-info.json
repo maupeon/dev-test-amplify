@@ -1,0 +1,33 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-devtestamplify-staging-143617-authRole",
+      "UnauthRoleArn": "arn:aws:iam::215654980642:role/amplify-devtestamplify-staging-143617-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::215654980642:role/amplify-devtestamplify-staging-143617-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-devtestamplify-staging-143617-deployment",
+      "UnauthRoleName": "amplify-devtestamplify-staging-143617-unauthRole",
+      "StackName": "amplify-devtestamplify-staging-143617",
+      "StackId": "arn:aws:cloudformation:us-east-1:215654980642:stack/amplify-devtestamplify-staging-143617/0065a0e0-f882-11ec-aae4-0e992f7d12af",
+      "AmplifyAppId": "d3ubl5adv9ti8o",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-devtestamplify-staging-143617-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "devtestamplify": {}
+      },
+      "function": {
+        "devtestamplifyPostConfirmation": {
+          "GROUP": "MeduUsers",
+          "deploymentBucketName": "amplify-devtestamplify-staging-143617-deployment",
+          "s3Key": "amplify-builds/devtestamplifyPostConfirmation-346334624d6d514d6844-build.zip"
+        },
+        "devtestamplifyPreSignup": {
+          "DOMAINDENYLIST": "yopmail.com",
+          "deploymentBucketName": "amplify-devtestamplify-staging-143617-deployment",
+          "s3Key": "amplify-builds/devtestamplifyPreSignup-4546626f476c5262304a-build.zip"
+        }
+      }
+    }
+  }
+}
